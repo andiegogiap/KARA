@@ -131,7 +131,7 @@ const PromptDetailModal: React.FC<PromptDetailModalProps> = ({ prompt, onClose, 
         @keyframes slide-up { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
         .prose a { color: #22d3ee; } .prose a:hover { color: #67e8f9; }
       `}</style>
-      <div className="bg-gray-900/90 backdrop-blur-lg border border-gray-700 rounded-xl shadow-2xl shadow-black/50 w-full max-w-4xl max-h-[90vh] flex flex-col animate-slide-up" onClick={(e) => e.stopPropagation()}>
+      <div className="glass glass-strong w-full max-w-4xl max-h-[90vh] flex flex-col animate-slide-up" onClick={(e) => e.stopPropagation()}>
         <header className="p-6 border-b border-gray-700 flex justify-between items-start shrink-0">
           <div>
             <span className="bg-cyan-900/50 text-cyan-300 text-xs font-semibold rounded-full px-3 py-1 mb-2 inline-block">

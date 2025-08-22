@@ -37,7 +37,7 @@ const GuidancePanel: React.FC<GuidancePanelProps> = ({ thread, isOpen, onClose, 
     return (
         <div className={`fixed inset-0 z-50 transition-all duration-300 ease-in-out ${isOpen ? 'bg-black/60' : 'bg-transparent pointer-events-none'}`} onClick={onClose}>
             <div 
-                className={`fixed top-0 left-0 h-full w-full max-w-lg bg-gray-900/95 backdrop-blur-lg border-r border-gray-700 shadow-2xl transform transition-transform duration-300 ease-in-out ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}
+                className={`fixed top-0 left-0 h-full w-full max-w-lg glass transform transition-transform duration-300 ease-in-out ${isOpen ? 'translate-x-0' : '-translate-x-full'}`}
                 onClick={(e) => e.stopPropagation()}
             >
                 <header className="p-4 border-b border-gray-700 flex justify-between items-center sticky top-0 bg-gray-900/95 backdrop-blur-lg z-10">

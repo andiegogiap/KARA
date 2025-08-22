@@ -95,7 +95,7 @@ const WorkshopView: React.FC<WorkshopViewProps> = ({ workshopState, onSaveAndClo
   };
 
   return (
-    <div className="bg-gray-900/70 backdrop-blur-sm border border-gray-700 rounded-xl p-6 lg:p-8 animate-fade-in">
+    <div className="glass neon p-6 lg:p-8 animate-fade-in">
         <style>{`@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }`}</style>
         <header className="flex flex-col sm:flex-row justify-between sm:items-center gap-4 pb-6 border-b border-gray-700 mb-6">
             <div>

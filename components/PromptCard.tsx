@@ -11,7 +11,7 @@ const PromptCard: React.FC<PromptCardProps> = ({ prompt, onSelect }) => {
   return (
     <div
       onClick={() => onSelect(prompt)}
-      className="group bg-gray-900/70 backdrop-blur-sm p-6 transition-all duration-300 cursor-pointer shadow-lg hover:shadow-cyan-400/20 hover:-translate-y-1 flex flex-col justify-between border border-gray-700 hover:border-cyan-400 rounded-xl"
+      className="group glass neon p-6 transition-all duration-300 cursor-pointer hover:shadow-cyan-400/20 hover:-translate-y-1 flex flex-col justify-between"
     >
       <div>
         <div className="flex items-center justify-between mb-4">

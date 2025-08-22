@@ -103,15 +103,7 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen text-gray-300 font-sans">
-       <style>{`
-        .cyber-grid-bg {
-          background-image:
-            linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
-          background-size: 2.5rem 2.5rem;
-        }
-      `}</style>
-      <div className="relative min-h-screen cyber-grid-bg">
+      <div className="relative min-h-screen">
         <div className="max-w-7xl mx-auto p-4 sm:p-8">
             <header className="text-center mb-16 relative flex justify-between items-center">
                <button 
@@ -123,7 +115,7 @@ const App: React.FC = () => {
               </button>
 
               <div className="flex-grow">
-                  <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-gray-100">
+                  <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-gray-100 font-orbitron">
                     KARA
                     <span 
                       className="text-fuchsia-500" 
